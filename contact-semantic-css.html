@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style-responsiveness.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index-semantic-css.html">Home</a></li>
+        <li><a href="about-semantic-css.html">About us</a></li>
+        <li><a href="contact-semantic-css.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h1>Contact Us</h1>
+        <address>
+          <p>Phone: <a href="tel:01705657382">01705657382</a></p>
+          <p>Email: <a href="mailto:info@coffeeforyou.com">info@coffeeforyou.com</a></p>
+          <p>Address: 123 Coffee St, Brew City</p>
+        </address>
+      </section>
+
+      <section>
+        <h2>Get in Touch</h2>
+        <form action="/submit_form" method=""POST></form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Name" required /><br /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Email" required/><br /><br />
+
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" placeholder="Message" required></textarea><br /><br />
+
+          <button>Submit</button>
+        </form>
+      </section>
+      <br />
+      <figure>
+        <img
+          src="https://images.pexels.com/photos/302898/pexels-photo-302898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          alt="Coffee beans - Photo by Pixabay on Pexels"
+          width="100%"
+        />
+      </figure>
+    </main>
+  </body>
+</html>

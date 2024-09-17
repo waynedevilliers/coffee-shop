@@ -1,0 +1,144 @@
+/* Reset and Box-Sizing */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial;
+    background-color:lightblue;
+    color: black;
+  }
+  
+  /* Navigation */
+  nav a {
+    background-color: orange;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: yellow;
+  }
+  
+  /* Lists */
+  ul {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  li {
+    display: inline-block;
+    background-color: orange;
+    border: 2px solid black; /* Explicit border width for consistency */
+    margin: 5px;
+    padding: 10px 20px; /* Adjusted padding for better spacing */
+    border-radius: 5px;
+  }
+  
+  /* Headers */
+  header {
+    margin: auto;
+    padding: auto;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    background-color: orange;
+    color: black;
+    padding: 10px; /* Added padding for better spacing */
+    border: 2px solid black; /* Explicit border width */
+    border-radius: 10px;
+    margin: 10px 0; /* Adjusted margin for spacing */
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin: 20px 0; /* Adjusted margin for better spacing */
+    text-align: center; /* Centered text for consistency */
+    background-color: transparent; /* Corrected 'none' to 'transparent' */
+  }
+  
+  /* Address */
+  address{
+    padding: 10px 0; 
+    margin: 10px 0; 
+  }
+
+  address p a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 20px;
+  }
+  
+  /* Paragraphs */
+  p {
+    margin: 10px 0;
+  }
+  
+  /* Figures and Images */
+  figure {
+    border: 2px solid black; /* Explicit border width */
+    width: 100%;
+    height: 300px;
+    margin: 10px 0; /* Adjusted margin for better spacing */
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  /* Links */
+  a {
+    color: orange;
+  }
+  
+  a:hover {
+    color:  #fafafa;
+  }
+  
+  
+  /* Inputs and Textareas */
+  textarea,
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid black; /* Explicit border width */
+  }
+  
+  /* Buttons */
+  button {
+    background-color: orange;
+    color: black;
+    padding: 10px; /* Uniform padding for height consistency */
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black; /* Explicit border width */
+    cursor: pointer;
+    font-size: 1rem; /* Ensures text is readable */
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+  }
+  
